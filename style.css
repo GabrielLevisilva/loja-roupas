@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media(max-width: 375px){
+    header{
+        background-color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        padding: 20px 10px;
+        font-size: 15px;
+        border-bottom-style: solid;
+        border-color: rgba(0, 0, 0, 0.103);
+        border-width: 1px;
+    }
+    header > nav{
+        display: none;
+    }
+    /* BANNERS */
+    #bloco1{
+        background-image: url(./img/foto-1.jpg);
+        background-position: 50%;
+        background-size: cover;
+    }
+    .banner{
+        height: 300px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+        padding: 10px;
+    }
+    .banner > p{
+        color: rgb(255, 115, 0);
+        padding-bottom: 20px;
+        font-weight: bold;
+
+    }
+    .banner > h1{
+        font-weight: bold;
+        font-size: 41px;
+    }
+    .banner > button{
+        background-color: white;
+    border: none;
+    padding: 15px 43px;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.178);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    }
+    .banner > button:active{
+        box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.171);
+    }
+    .banner > button:hover{
+        box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.171);
+    }
+    #bloco3{
+        background-image: url(./img/foto-2.jpg);
+        background-position: 50%;
+        background-size: cover;
+    }
+    /* produtos */
+    .produtos-area{
+        font-family: sans-serif;
+        text-align: center;
+    }
+    .produtos-area > h2{
+        margin-top: 30px;
+    }
+    .produtos{
+        display: flex;
+        gap: 5px;
+    }
+    .product{
+    width: 50%;
+    height: 281px;
+    text-align: center;
+    font-family: sans-serif;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+    }
+    .product:hover{
+        box-shadow: 2px 5px 13px 0px rgba(0, 0, 0, 0.226);
+        transform: scale(1.05);
+    }
+    .product:active{
+        box-shadow: 2px 5px 13px 0px rgba(0, 0, 0, 0.226);
+    }
+    #f-pro1{
+        height: 80%;
+        background-image: url(./img/f-roupa1.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    #f-pro2{
+        height: 80%;
+        background-image: url(./img/f-roupa2.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    #m-pro1{
+        height: 80%;
+        background-image: url(./img/m-roupa1.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    #m-pro2{
+        height: 80%;
+        background-image: url(./img/m-roupa2.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .produtos-area > button{
+        margin-bottom: 40px;
+        background-color: white;
+    border: none;
+    padding: 15px 43px;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.178);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    }
+    .produtos-area > button:active{
+        box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.171);
+    }
+    .produtos-area > button:hover{
+        box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.171);
+    }
+    /* FOOTER */
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgba(255, 182, 193, 0.082);
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.747);
+        display: flex;
+        flex-direction: column;
+    }
+    footer > h1{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    
+    footer > h3{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    footer > section{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    footer > h4{
+        text-align: center;
+        border-top-style: solid;
+        border-width: 1px;
+        border-color: rgba(0, 0, 0, 0.26);
+        padding: 15px;
+    }
+    footer > a{
+        color: rgba(0, 0, 0, 0.479);
+    }
+    footer > a:hover{
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.479);
+    }
+    footer > a:active{
+        color: rgba(0, 0, 0, 0.226);
+    }
+    footer > h4 > a{
+        color: rgb(134, 156, 255);
+    }
+    footer > h4 > a:hover{
+        cursor: pointer;
+        color: rgb(134, 156, 255);
+    }
+    footer > h4 > a:active{
+        color: rgba(134, 156, 255, 0.486);
+    }
+}
