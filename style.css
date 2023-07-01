@@ -5,7 +5,9 @@
     padding: 0px;
 }
 /* MOBILE FIRST */
-
+    .esconder{
+        display: none;
+    }
     header{
         background-color: rgb(255, 255, 255);
         font-family: sans-serif;

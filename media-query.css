@@ -1,5 +1,23 @@
-@media only screen and (min-width: 992px){
-    html{
+@media screen and (min-width: 992px){ /*Tela Grande*/
+    .esconder{
+        display: block;
+    }
+    header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    header > nav{
         background-color: aqua;
+        display: block;
+    }
+    .banner{
+        height: 50vh;
+        padding-left: 200px;
+    }
+    .banner > h1{
+        font-size: 60px;
+    }
+    #bloco1 > h1{
+        width: 435px;
     }
 }
