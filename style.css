@@ -152,7 +152,7 @@
         gap: 9px;
         height: 335px;
         margin-top: 9px;
-        overflow-x: hidden;
+        overflow-x: auto;
         
     }
     .caixa > div{
@@ -174,4 +174,17 @@
     .caixa > div:hover{
         box-shadow: 2px 5px 13px 0px rgba(0, 0, 0, 0.226);
         transform: scale(1.05);
+    }
+
+    /* SCROOLBAR */
+    *::-webkit-scrollbar{
+        width: 12px;
+    }
+    *::-webkit-scrollbar-track{
+        background: rgb(255, 255, 255);
+    }
+    *::-webkit-scrollbar-thumb{
+        background-color:#4515311c;
+        border-radius: 10px;
+        border: 3px solid #ffffff;
     }
