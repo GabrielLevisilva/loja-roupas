@@ -1,9 +1,11 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
 }
+/* MOBILE FIRST */
 
-@media(max-width: 375px){
     header{
         background-color: rgb(255, 255, 255);
         font-family: sans-serif;
@@ -184,4 +186,3 @@
     footer > h4 > a:active{
         color: rgba(134, 156, 255, 0.486);
     }
-}
