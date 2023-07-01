@@ -148,7 +148,8 @@
     /* NOVA AREA */
     .caixa{
         width: 100%;
-        display: flex;
+        display: grid;
+        grid-auto-flow: column;
         gap: 9px;
         height: 335px;
         margin-top: 9px;
