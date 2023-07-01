@@ -154,8 +154,10 @@
         height: 335px;
         margin-top: 9px;
         overflow-x: auto;
-        
     }
+    
+    
+
     .caixa > div{
         min-width: 165px;
         max-height: 300px;
