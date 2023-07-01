@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .caixa{
-    background-color: rgba(255, 255, 255, 0.13) ;
+    background-color: rgba(255, 104, 235, 0.13) ;
     width: 98%;
     display: flex;
     gap: 20px;
@@ -15,7 +15,7 @@
 }
 .caixa > div{
     background-color: rgba(6, 255, 255, 0.322);
-    min-width: 151px;
+    min-width: 165px;
     max-height: 300px;
     margin: 10px 0px 10px 0px;
     
