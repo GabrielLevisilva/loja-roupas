@@ -187,6 +187,20 @@ html {
         transform: scale(1.05);
     }
 
+    /* botões de rolagem */
+    .seta1, .seta2{
+        width: 10px;
+    }
+    .seta1{
+        position: absolute;
+        left: 0px;
+        top: 399px;
+    }
+    .seta2{
+        position: absolute;
+        left: 86%;
+    top: 399px;
+    }
     /* SCROOLBAR */
     *::-webkit-scrollbar{
         width: 12px;
