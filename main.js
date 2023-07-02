@@ -11,4 +11,18 @@ botao2.addEventListener('click', () => {
   caixaevento.scrollLeft -= 350;
 });
 
+const caixaevento2 = document.querySelector('.caixa2');
+
+const botao3 = document.querySelector('.seta3');
+
+botao3.addEventListener('click', () => {
+  caixaevento2.scrollLeft -= 350;
+});
+
+const botao4 = document.querySelector('.seta4');
+
+botao4.addEventListener('click', () => {
+  caixaevento2.scrollLeft += 350;
+});
+
 

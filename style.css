@@ -146,7 +146,7 @@
     }
 
     /* NOVA AREA */
-    .caixa{
+    .caixa, .caixa2{
         width: 100%;
         display: grid;
         grid-auto-flow: column;
@@ -166,7 +166,7 @@ html {
   scroll-margin-top: .8em;
 }
 
-    .caixa > div{
+    .caixa > div, .caixa2 > div{
         min-width: 165px;
         max-height: 300px;
         margin: 10px 4px;
@@ -176,21 +176,25 @@ html {
     cursor: pointer;
         
     }
-    .caixa > div > a > img{
+    .caixa > div > a > img, .caixa2 > div > a >img{
         object-fit: cover;
         width: 100%;
         height: 82%;
     }
 
-    .caixa > div:hover{
+    .caixa > div:hover, .caixa > div:hover{
         box-shadow: 2px 5px 13px 0px rgba(0, 0, 0, 0.226);
         transform: scale(1.05);
     }
 
     /* botões de rolagem */
-    .seta1, .seta2{
+    .seta1, .seta2, .seta3, .seta4{
         width: 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        scroll-behavior: smooth;
     }
+
     .seta1{
         position: absolute;
         left: 0px;
@@ -200,6 +204,17 @@ html {
         position: absolute;
         left: 86%;
     top: 399px;
+    }
+
+    .seta3{
+        position: absolute;
+        left: 0px;
+        top: 1238px;
+    }
+    .seta4{
+        position: absolute;
+        left: 86%;
+    top: 1238px;
     }
     /* SCROOLBAR */
     *::-webkit-scrollbar{
