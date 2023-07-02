@@ -154,6 +154,7 @@
         height: 335px;
         margin-top: 9px;
         overflow-x: auto;
+        scroll-behavior: smooth;
     }
     
     
