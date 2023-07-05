@@ -182,7 +182,7 @@ html {
         height: 82%;
     }
 
-    .caixa > div:hover, .caixa > div:hover{
+    .caixa > div:hover, .caixa2 > div:hover{
         box-shadow: 2px 5px 13px 0px rgba(0, 0, 0, 0.226);
         transform: scale(1.05);
     }
